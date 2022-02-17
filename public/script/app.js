@@ -309,20 +309,7 @@ const time = () => {
   });
 };
 const greet = () => {
-  const dateObj = new Date();
-  const currentHour = dateObj.getHours();
-  if (currentHour >= 0 && currentHour < 11) {
-    return "Good Morning";
-  }
-  if (currentHour >= 11 && currentHour < 14) {
-    return "Good Noon";
-  }
-  if (currentHour >= 14 && currentHour < 18) {
-    return "Good Afternoon";
-  }
-  if (currentHour >= 18 && currentHour < 24) {
-    return "Good Evening";
-  }
+  return "Discord Bot";
 };
 const theme = {
   light: () => {
