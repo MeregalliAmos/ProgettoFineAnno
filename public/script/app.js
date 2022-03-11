@@ -307,7 +307,7 @@ const time = () => {
   });
 };
 const greet = () => {
-  return "Zuikaku Discord Bot";
+  return "Akagi Discord Bot";
 };
 const theme = {
   light: () => {

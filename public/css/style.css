@@ -88,10 +88,10 @@ label {
   flex-grow: 0.3;
 }
 .greeting-time-container :not(:last-child) {
-  color: #3126c5;
+  color: #e61717;
 }
 .greeting-time-container :last-child {
-  color: #ad273e;
+  color: #ffffff;
 }
 
 .greeting {
